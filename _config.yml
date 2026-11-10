@@ -1,0 +1,6 @@
+title: "Cynthia Bennett"
+description: "Academic website"
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: minima

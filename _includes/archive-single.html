@@ -1,0 +1,7 @@
+<div class="archive__item">
+  <h3 class="archive__item-title">{{ post.title }}</h3>
+  <p class="archive__item-excerpt">{{ post.excerpt }}</p>
+  {% if post.codeurl %}
+  <a class="btn btn--primary" href="{{ post.codeurl }}">Code</a>
+  {% endif %}
+</div>
